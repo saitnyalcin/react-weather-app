@@ -1,10 +1,10 @@
-import React from 'react';
-import WeatherEngine from '../WeatherEngine/WeatherEngine';
+import React from "react";
+import WeatherEngine from "../WeatherEngine/WeatherEngine";
 
-const WeatherView = props => {
+const WeatherView = (props) => {
   return (
     <div>
-      <div className="flex-container">
+      <div class="flex-container">
         <WeatherEngine location="moscow" />
         <WeatherEngine location="halifax" />
         <WeatherEngine location="sydney" />

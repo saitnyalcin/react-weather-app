@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import WeatherView from './components/WeatherView/WeatherView';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import WeatherView from "./components/WeatherView/WeatherView";
 
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <Navbar />
-      <div className="row">
-        <div className="main">
+      <div class="row">
+        <div class="main">
           <WeatherView />
         </div>
       </div>
